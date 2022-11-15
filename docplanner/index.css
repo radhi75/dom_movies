@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+   background-color: rgb(250, 235, 238);
+    
+   
+}
+#carouselExampleIndicators{
+    height: 700px;
+}
+.carousel-item>img{
+    height: 700px;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 50px;
+    padding: 10px;
+    background-color: black;
+}
+
+.description {
+    margin-left: 20px;
+}
+
+.poster {
+    width: 200px;
+    height: 300px;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+
+.title {
+    color: rgb(255, 208, 0);
+}
+
+.para {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    font-size: large;
+}
+
+.poster:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 5px 4px 26px 15px rgba(255, 255, 255, 0.26);
+    -webkit-box-shadow: 5px 4px 26px 15px rgba(255, 255, 255, 0.26);
+    -moz-box-shadow: 5px 4px 26px 15px rgba(255, 255, 255, 0.26);
+}
+
+.gen {
+    color: white;
+    text-decoration: underline;
+}
+
+.watch {
+    height: 2rem;
+    width: 200px;
+    font-size: large;
+    background-color: rgb(255, 230, 0);
+    border-radius: 5px;
+
+    margin-top: 10%;
+    margin-left: 15%;
+}
+
+.btn-watch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 12.5%;
+}
+
+.btn-watch:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.icons{
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding-left: 95%;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    padding-top: 10px;
+}
